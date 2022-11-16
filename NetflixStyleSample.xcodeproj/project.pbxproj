@@ -16,6 +16,10 @@
 		27668C522924DE27000FF682 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 27668C512924DE27000FF682 /* SnapKit-Dynamic */; };
 		27668C542924E02C000FF682 /* Content.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27668C532924E02C000FF682 /* Content.plist */; };
 		27668C562924E0A1000FF682 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668C552924E0A1000FF682 /* Content.swift */; };
+		27668C582924E56A000FF682 /* ContentCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668C572924E56A000FF682 /* ContentCollectionViewHeader.swift */; };
+		27668C5A2924E585000FF682 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668C592924E585000FF682 /* ContentCollectionViewCell.swift */; };
+		27668C5C2924E5A3000FF682 /* ContentCollectionViewMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668C5B2924E5A3000FF682 /* ContentCollectionViewMainCell.swift */; };
+		27668C5E2924E5CC000FF682 /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668C5D2924E5CC000FF682 /* ContentCollectionViewRankCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		27668C4C2924DC0C000FF682 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		27668C532924E02C000FF682 /* Content.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Content.plist; sourceTree = "<group>"; };
 		27668C552924E0A1000FF682 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		27668C572924E56A000FF682 /* ContentCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewHeader.swift; sourceTree = "<group>"; };
+		27668C592924E585000FF682 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		27668C5B2924E5A3000FF682 /* ContentCollectionViewMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewMainCell.swift; sourceTree = "<group>"; };
+		27668C5D2924E5CC000FF682 /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,10 @@
 				27668C462924DB67000FF682 /* Info.plist */,
 				27668C4C2924DC0C000FF682 /* HomeViewController.swift */,
 				27668C552924E0A1000FF682 /* Content.swift */,
+				27668C572924E56A000FF682 /* ContentCollectionViewHeader.swift */,
+				27668C592924E585000FF682 /* ContentCollectionViewCell.swift */,
+				27668C5B2924E5A3000FF682 /* ContentCollectionViewMainCell.swift */,
+				27668C5D2924E5CC000FF682 /* ContentCollectionViewRankCell.swift */,
 			);
 			path = NetflixStyleSample;
 			sourceTree = "<group>";
@@ -152,7 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27668C582924E56A000FF682 /* ContentCollectionViewHeader.swift in Sources */,
 				27668C392924DB66000FF682 /* AppDelegate.swift in Sources */,
+				27668C5C2924E5A3000FF682 /* ContentCollectionViewMainCell.swift in Sources */,
+				27668C5A2924E585000FF682 /* ContentCollectionViewCell.swift in Sources */,
+				27668C5E2924E5CC000FF682 /* ContentCollectionViewRankCell.swift in Sources */,
 				27668C3B2924DB66000FF682 /* SceneDelegate.swift in Sources */,
 				27668C4D2924DC0C000FF682 /* HomeViewController.swift in Sources */,
 				27668C562924E0A1000FF682 /* Content.swift in Sources */,
